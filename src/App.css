@@ -13,7 +13,7 @@
 }
 body {
   color: #576366;
-  background: #5fcf80;
+  background: grey;
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
@@ -69,14 +69,13 @@ button {
 ==================================== */
 
 .container {
-  width: 95%;
+  width: 100%;
   background: #fff;
-  border-radius: .5em;
   box-shadow: 0 3px rgba(0,0,0, .1);
   overflow: hidden;
 }
 header {
-  background: #edeff0;
+  background: black;
   margin-bottom: 2em;
 }
 .main-content {
@@ -105,10 +104,15 @@ header {
 }
 
 /* MAIN NAV -------- */
-
+.main-nav {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+}
 .main-nav a {
   font-size: .95em;
-  color: #222;
+  color: rgb(224, 219, 219);
   text-align: center;
   text-transform: uppercase;
   display: block;
@@ -117,8 +121,8 @@ header {
 }
 .main-nav a:hover,
 .main-nav .active {
-  color: #fff;
-  background: #3b80d1;
+  color: rgb(224, 219, 219);
+  background: grey;
 }
 
 /* COURSE NAV -------- */
@@ -199,9 +203,6 @@ header {
    }
 }
 @media (min-width: 769px) {
-  body {
-    padding-top: 3em;
-  }
   .home a {
     border-color: #3b80d1;
   }
@@ -236,8 +237,6 @@ header {
     flex-wrap: wrap;
   }
   .main-nav a {
-    border-left: 3px solid transparent;
-    border-right: 3px solid transparent;
     padding: 1.25em 1.5em;
   }
   .main-nav a:hover {
