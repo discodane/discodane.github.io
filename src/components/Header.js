@@ -7,7 +7,7 @@ const Header = () => (
       <li><NavLink exact to="/">Home</NavLink></li>
       <li><NavLink to="/about">About</NavLink></li>
       <li><NavLink to="/teachers">Something else</NavLink></li>
-      <li><NavLink to="/courses">Something else else</NavLink></li>
+      <li><NavLink to="/resume">Resume</NavLink></li>
     </ul>    
   </header>
 )

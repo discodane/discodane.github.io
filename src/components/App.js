@@ -4,8 +4,12 @@ import {
   Route, 
   Switch, 
 } from 'react-router-dom';
+
 import Header from './Header';
 import './App.css';
+import Home from './Home';
+import About from './About';
+import Resume from './Resume';
 
 class App extends Component {
   render() {
@@ -14,9 +18,9 @@ class App extends Component {
         <div className="container">
           <Header />
           <Switch>
-            <Route exact path="/"  />
-            <Route path="/about"  />
-            <Route path="/courses"  />
+            <Route exact path="/" component={Home}/>
+            <Route path="/about" component={About}/>
+            <Route path="/resume" component={Resume}  />
             <Route exact path="/teachers"  />
             <Route path="/teachers/:topic/:teachersName" />
             <Route />
