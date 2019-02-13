@@ -13,7 +13,7 @@
 }
 body {
   color: #576366;
-  background: grey;
+  background-image: radial-gradient(circle, rgb(88, 86, 86), rgb(46, 42, 42), black);
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
@@ -70,8 +70,6 @@ button {
 
 .container {
   width: 100%;
-  background: #fff;
-  box-shadow: 0 3px rgba(0,0,0, .1);
   overflow: hidden;
 }
 header {

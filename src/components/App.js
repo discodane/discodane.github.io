@@ -7,7 +7,7 @@ import {
 
 import Header from './Header';
 import './App.css';
-import Home from './Home';
+import Home from './Home/Home';
 import About from './About';
 import Resume from './Resume';
 
