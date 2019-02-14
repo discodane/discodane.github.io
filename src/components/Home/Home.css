@@ -4,7 +4,12 @@
 .content {
   color: white;
   display: flex;
-  flex-direction: column;
+  height: 100vh;
+  overflow: auto;
+}
+
+.text {
   align-items: center;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
