@@ -1,16 +1,16 @@
-.name {
-  font-size: 10em;
-}
 .content {
   color: white;
   display: flex;
   height: 100vh;
   overflow: auto;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .text {
   align-items: center;
   display: flex;
   flex-direction: column;
+  width: 50%;
+  padding-left: 2em;
+  padding-right: 2em;
 }

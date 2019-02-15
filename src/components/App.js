@@ -8,7 +8,7 @@ import {
 import Header from './Header';
 import './App.css';
 import Home from './Home/Home';
-import About from './About';
+import About from './About/About';
 import Resume from './Resume';
 
 class App extends Component {

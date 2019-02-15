@@ -13,7 +13,7 @@
 }
 body {
   color: #576366;
-  background-image: radial-gradient(circle, rgb(88, 86, 86), rgb(46, 42, 42), black);
+  background:black;
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
