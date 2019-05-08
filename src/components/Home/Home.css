@@ -1,16 +1,26 @@
 .name {
-  font-size: 10em;
+  font-size: 5em;
 }
 .content {
   color: white;
   display: flex;
+  flex-direction: row;
   height: 100vh;
   overflow: auto;
-  justify-content: center;
+  padding-left: 5em;
+  padding-top: 5em;
+}
+
+.image {
+  flex: 1;
+  width: 25%;
 }
 
 .text {
-  align-items: center;
   display: flex;
   flex-direction: column;
+}
+
+.listItem {
+  padding-top: 2em;
 }
