@@ -3,6 +3,7 @@ import './Home.css';
 import aboutList from '../../assets/aboutList';
 import pic from '../../assets/images/me.png';
 
+
 const Home = () => (
   <div className="content">
     <div className='text'>
