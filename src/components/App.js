@@ -1,13 +1,21 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
-import Home from './Home/Home';
+import aboutList from '../assets/aboutList';
+import pic from '../assets/images/me.png';
 
-class App extends Component {
-  render() {
+const App = () =>  {
+  console.log('this is happening')
     return (
-      <Home />
+      <div className="content">
+        <div className='text'>
+          <div className="name"><span>Dane Erickson</span></div>
+          {aboutList.map((item, iterator) => <div className="listItem" key={ iterator }>{item}</div>)}
+        </div>
+        <div className="image">
+          <img src={pic} alt="me" />
+        </div>
+    </div>
     );
-  }
 }
 
 export default App;
