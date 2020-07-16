@@ -8,7 +8,7 @@ const Home = () => (
   <div className="content">
     <div className='text'>
       <div className="name"><span>Dane Erickson</span></div>
-      {aboutList.map(item => <div className="listItem">{item}</div>)}
+      {aboutList.map((item, iterator) => <div className="listItem" key={ iterator }>{item}</div>)}
     </div>
     <div className="image">
       <img src={pic} alt="me" />

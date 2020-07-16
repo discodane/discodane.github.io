@@ -9,6 +9,7 @@
   overflow: auto;
   padding-left: 5em;
   padding-top: 5em;
+  overflow: hidden;
 }
 
 .image {

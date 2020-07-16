@@ -10,5 +10,5 @@ export default [
   "I used to be a full stack developer at Walmart, where we helped people buy stuff",
   "I worked as a full stack developer at iFit, where we helped people move",
   "I currently help develop an app called Drive at J.B. Hunt, which helps people move... stuff",
-  <span className='linkText' onClick={() => window.open('https://docs.google.com/document/d/1eOoBIPB7-oQ2ob2iFZtwx2VK9y2p9bL_AtXaP-JE50Y/export?format=pdf', '_blank')}>Extra boring details about my work life can be found here</span>,
+  <span className='linkText' onClick={() => window.open('https://docs.google.com/document/d/1eOoBIPB7-oQ2ob2iFZtwx2VK9y2p9bL_AtXaP-JE50Y/export?format=pdf', '_blank')}>Extra details about my exciting work life can be found here</span>,
 ]
